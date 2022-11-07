@@ -10,7 +10,7 @@ body {
   position: relative;
   overflow: hidden;
   display: flex;
-  background: url('../assets/img/background-main.jpg') no-repeat;
+  background: url('./assets/img/background-main.jpg') no-repeat;
   background-size: cover;
 }
 
