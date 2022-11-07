@@ -55,7 +55,7 @@ h3 {
 }
 
 #logout-div {
-  padding-top: 5em;
+  padding-top: 5rem;
 }
 
 .links {
@@ -202,7 +202,7 @@ td.card-info {
   margin: 2rem;
   padding: 1.5rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  margin-left: 25em;
+  margin: auto;
   display: flex;
 }
 
@@ -332,13 +332,19 @@ button {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
+  #logout-div {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
 
   .menu-container {
     position: absolute;
     right: 0px;
-    height: 94vh;
-    top: 6vh;
+    height: 100vh;
+    top: 0px;
     font-size: 1.3em;
     display: flex;
     flex-direction: column;
@@ -389,8 +395,22 @@ button {
     padding-bottom: 2em;
   }
 
-  .list-options {
+  .list-options,
+  .option-name {
     width: 80%;
-    margin-left: 3.5em;
+    margin-left: auto;
+  }
+
+  .add-new-partner {
+    max-height: 80vh;
+    max-width: 60vw;
+  }
+
+  td {
+    font-size: 1rem;
+  }
+
+  .card {
+    display: inline-block;
   }
 }
