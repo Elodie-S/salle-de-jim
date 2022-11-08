@@ -1,4 +1,4 @@
 <?php
 
-require_once '../app/admin/views/menu-admin.php';
-require_once '../app/database/header.php';
+require_once __DIR__ .'/../app/admin/views/menu-admin.php';
+require_once __DIR__ .'/../app/database/header.php';
