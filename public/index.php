@@ -1,7 +1,7 @@
 <?php
 
-require '../app/database/database.php';
-require '../app/Router/routes.php';
+require '/app/database/database.php';
+require '/app/Router/routes.php';
 
 ?>
 
