@@ -1,6 +1,6 @@
 <?php
-require_once '/app/database/database.php';
-require_once '/app/database/security.php';
+require_once ''.__DIR__ .'/app/database/database.php';
+require_once ''.__DIR__ .'/app/database/security.php';
 ?>
 
 <!DOCTYPE html>
