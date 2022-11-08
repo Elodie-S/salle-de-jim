@@ -6,7 +6,7 @@ if(!empty($_POST)){
             $php_errormsg = "email non valide";
     }
 
-    require_once "/app/database/database.php";
+    require_once "../app/database/database.php";
 
     $sql = "SELECT * FROM `jim_users` WHERE `user_email` = :user_email";
     $query = $db->prepare($sql);

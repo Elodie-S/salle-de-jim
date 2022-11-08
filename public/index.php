@@ -1,7 +1,7 @@
 <?php
 
-require '/app/database/database.php';
-require '/app/Router/routes.php';
+require '../app/database/database.php';
+require '../app/Router/routes.php';
 
 ?>
 
@@ -11,7 +11,7 @@ require '/app/Router/routes.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Salle de Jim</title>
-    <link rel="shortcut icon" type="image/ico" href="..public/assets/img/favicon.ico"/> 
+    <link rel="shortcut icon" type="image/ico" href="./assets/img/favicon.ico"/> 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
