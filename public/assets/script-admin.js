@@ -72,7 +72,7 @@ $('#see-gyms-list').click(function(){
 
   function confirmationDelete(anchor)
 {
-   var conf = confirm('Etes-vous sûr de vouloir supprimer ce partenaire et les salles qui lui sont associées ?');
+   var conf = confirm('Etes-vous sûr de vouloir supprimer ce partenaire ?');
    if(conf)
       window.location=anchor.attr("href");
 }

@@ -10,7 +10,7 @@ body {
   position: relative;
   overflow: hidden;
   display: flex;
-  background: url('./assets/img/background-main.jpg') no-repeat;
+  background: url('../assets/img/background-main.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -55,7 +55,7 @@ h3 {
 }
 
 #logout-div {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .links {
@@ -333,9 +333,11 @@ button {
 }
 
 @media screen and (max-width: 1400px) {
+  
   #logout-div {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
   }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -365,8 +367,9 @@ button {
     cursor: pointer;
     height: 2.5rem;
     width: 2.5rem;
-    background: url('../../public/assets/img/burger.png');
-    background-size: cover;  }
+    background: url('../assets/img/burger.png');
+    background-size: cover;  
+  }
 
   .nav-active {
     transform: translateX(0%);

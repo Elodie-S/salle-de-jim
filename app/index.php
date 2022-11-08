@@ -1,7 +1,7 @@
 <?php
 
-require '../app/database/database.php';
-require '../app/Router/routes.php';
+require 'database/database.php';
+require './router/routes.php';
 
 ?>
 
@@ -11,20 +11,20 @@ require '../app/Router/routes.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Salle de Jim</title>
-    <link rel="shortcut icon" type="image/ico" href="./assets/img/favicon.ico"/> 
+    <link rel="shortcut icon" type="image/ico" href="../public/assets/img/favicon.ico"/> 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="./assets/styles-login.css" />
+    <link rel="stylesheet" href="../public/assets/styles-login.css" />
   </head>
 
   <body>
     <main>
       <div class="video-bloc">
-        <video class="video" autoplay loop muted><source src="./assets/img/loginvideo.mp4" type="video/mp4"></video>
+        <video class="video" autoplay loop muted><source src="../public/assets/img/loginvideo.mp4" type="video/mp4"></video>
       <div class="login-card">
         <div>
-          <img src="./assets/img/logo.png" alt="Logo de la salle de Jim" class=logo>
+          <img src="../public/assets/img/logo.png" alt="Logo de la salle de Jim" class=logo>
         </div>
         
         <form method="POST">

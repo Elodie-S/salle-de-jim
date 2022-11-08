@@ -6,7 +6,7 @@ if(!empty($_POST)){
             $php_errormsg = "email non valide";
     }
 
-    require_once "".__DIR__."/../app/database/database.php";
+    require_once "../app/database/database.php";
 
     $sql = "SELECT * FROM `jim_users` WHERE `user_email` = :user_email";
     $query = $db->prepare($sql);
@@ -34,7 +34,7 @@ if(!empty($_POST)){
         
         if($_SESSION['user_role'] == 'admin'){
 
-            header('Location:'.__DIR__.'/../app/admin/dashboard-admin.php');
+            header('Location: ../app/admin/dashboard-admin.php');
 
         } else if ($_SESSION['user_role'] == 'partner'){
 
