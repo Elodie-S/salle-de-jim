@@ -1,8 +1,6 @@
 <?php
-
 require 'database/database.php';
-require './router/routes.php';
-
+require 'router/routes.php';
 ?>
 
 <!DOCTYPE html>
