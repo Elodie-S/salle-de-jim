@@ -1,7 +1,7 @@
 <?php
 
-require 'database/database.php';
-require './router/routes.php';
+require 'app/database/database.php';
+require 'app/router/routes.php';
 
 ?>
 
@@ -21,10 +21,10 @@ require './router/routes.php';
   <body>
     <main>
       <div class="video-bloc">
-        <video class="video" autoplay loop muted><source src="../public/assets/img/loginvideo.mp4" type="video/mp4"></video>
+        <video class="video" autoplay loop muted><source src="public/assets/img/loginvideo.mp4" type="video/mp4"></video>
       <div class="login-card">
         <div>
-          <img src="../public/assets/img/logo.png" alt="Logo de la salle de Jim" class=logo>
+          <img src="public/assets/img/logo.png" alt="Logo de la salle de Jim" class=logo>
         </div>
         
         <form method="POST">
