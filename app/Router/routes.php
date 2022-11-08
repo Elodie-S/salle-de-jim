@@ -34,7 +34,7 @@ if(!empty($_POST)){
         
         if($_SESSION['user_role'] == 'admin'){
 
-            header('Location: ../app/admin/dashboard-admin.php');
+            header('Location: ../admin/dashboard-admin.php');
 
         } else if ($_SESSION['user_role'] == 'partner'){
 
