@@ -6,7 +6,7 @@ if(!empty($_POST)){
             $php_errormsg = "email non valide";
     }
 
-    require_once "../app/database/database.php";
+    require_once "/app/database/database.php";
 
     $sql = "SELECT * FROM `jim_users` WHERE `user_email` = :user_email";
     $query = $db->prepare($sql);
@@ -34,15 +34,15 @@ if(!empty($_POST)){
         
         if($_SESSION['user_role'] == 'admin'){
 
-            header('Location: ../admin/dashboard-admin.php');
+            header('Location: /app/admin/dashboard-admin.php');
 
         } else if ($_SESSION['user_role'] == 'partner'){
 
-            header('Location: ../app/partner/dashboard-partner.php');
+            header('Location: /app/partner/dashboard-partner.php');
 
         } else if ($_SESSION['user_role'] == 'gym'){
 
-            header('Location: ../app/gym/dashboard-gym.php');
+            header('Location: /app/gym/dashboard-gym.php');
 
         } else {
             
