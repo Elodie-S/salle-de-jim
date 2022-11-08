@@ -34,15 +34,15 @@ if(!empty($_POST)){
         
         if($_SESSION['user_role'] == 'admin'){
 
-            header('Location: /app/admin/dashboard-admin.php');
+            header('Location: ./app/admin/dashboard-admin.php');
 
         } else if ($_SESSION['user_role'] == 'partner'){
 
-            header('Location: /app/partner/dashboard-partner.php');
+            header('Location: ./app/partner/dashboard-partner.php');
 
         } else if ($_SESSION['user_role'] == 'gym'){
 
-            header('Location: /app/gym/dashboard-gym.php');
+            header('Location: ./app/gym/dashboard-gym.php');
 
         } else {
             
