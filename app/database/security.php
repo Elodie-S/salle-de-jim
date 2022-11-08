@@ -2,6 +2,6 @@
 
 session_start();
 if(!isset($_SESSION["auth"])){
-    header("Location: ../../public/index.php");
+    header("Location: /public/index.php");
     exit;
 }

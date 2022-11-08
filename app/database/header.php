@@ -1,6 +1,6 @@
 <?php
-require_once '../database/database.php';
-require_once '../database/security.php';
+require_once '/app/database/database.php';
+require_once '/app/database/security.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,5 +15,5 @@ require_once '../database/security.php';
     <link href="https://fonts.googleapis.com/css2?family=Glory:wght@300;400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../public/assets/styles.css" />
+    <link rel="stylesheet" href="/public/assets/styles.css" />
   </head>
